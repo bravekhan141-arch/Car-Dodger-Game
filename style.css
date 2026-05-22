@@ -1,3 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.game-container {
+    position: relative;
+    display: inline-block;
+}
+
+#gameCanvas {
+    background-color: #444;
+    border: 2px solid white;
+    display: block;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+}
+
+/* موبائل بٹن کا نیا کوڈ */
 .mobile-controls {
     display: flex;
     justify-content: center;
@@ -16,4 +63,4 @@
 
 .mobile-controls button:active {
     background: #e84118;
-}
+                         }
