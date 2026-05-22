@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Car Dodger Game</h1>
     <div class="game-container">
-        <h1>Car Dodger 🏎️</h1>
         <canvas id="gameCanvas" width="400" height="600"></canvas>
-        <div class="controls">
-            <p>Score: <span id="score">0</span></p>
-            <button id="startBtn">Start Game</button>
-            <p>Use Arrow Keys or A/D to Move</p>
-        </div>
+        <div id="score">Score: 0</div>
+        <button id="startButton">Start Game</button>
     </div>
+    
+    <!-- موبائل بٹن -->
+    <div class="mobile-controls">
+        <button id="leftBtn">⬅️</button>
+        <button id="rightBtn">➡️</button>
+    </div>
+    
     <script src="game.js"></script>
 </body>
 </html>
